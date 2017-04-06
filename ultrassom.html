@@ -1,156 +1,194 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Ultrassom Geral</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>CDI - Barcarena</title>
 
-<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="js/jcarousellite.min.js"></script>
-<script type="text/javascript" src="js/carrossel.js"></script>
-<link href="css/csssite.css" rel="stylesheet" type="text/css"/>
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="css/font-awesome.min.css">
 </head>
-
 <body>
-    <div class ="barraDeFundo">
-        <div class = "menu">
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="mamografia.html">Exames</a></li>
-                <li><a href="sobre.html">Sobre</a></li>	
-            </ul>
-        </div><!--Fim div menu-->
-    </div><!--Fim div barraDeFundo-->
-    <div class="fundo2">
-        <div class = "content">
-            <div class = "logo">
-                <a href="index.html"><img src="img/Sem-título-1.png" width="310" alt="CDI" longdesc="index.html" /></a>
-            </div>
-        
-            <div class= "info">
-                <ul>
-                	<a href="localizacao.html">
-                        <li>
-                            <img src="img/iconeapontador.png" width="25px">
-                            <p><b>Tv.Isidoro de Carvalho Nº13</br> Barcarena-PA</b></p>  
-                        </li>
-                    </a>
-                   <li id="fone">
-                       <img src="img/icofone.png" width="32px">
-                       <p><b>Fone:</b> (91) 8745-3512 <sup>(Oi)</sup> </br> 8972-6692 <sup>(Tim)</sup> | 9335-5581 <sup>(Vivo)</sup></p>
-                   </li>  
-                   <li id="email">
-                       <img src="img/iconeemail.png" width="35px">
-                       <p><b>Email:</b></br> cdi.barcarena.saude@gmail.com </p>
-                   </li>      
-                </ul>
-            </div>	<!-- Fim da div de Class "info" -->
-        </div> <!-- Fim da div de Class "content" -->
-    </div><!--Fim div fundo2-->
+
+    <div class="fixed-action-btn">
+    <a href="#top" class="btn-floating btn-large bluecdi">
+      <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    </a>
+  </div>
+  <div id="top" class= 'grey lighten-4'>
+    <div class= "container black-text center-align">
+      <small>
+      <b>Telefones: </b>
+      <small>Oi:</small> (91) 8745-3512 |
+      <small>Tim:</small> (91) 8972-6692 |
+      <small>Vivo:</small> (91) 9335-5581
+    </small>
+    </div>
+  </div>
+  <div class="parallax-container valign-wrapper">
     
-	<div class="fundo">
-        <div class = "conteudo">
-            <div class="titulo">
-                <h1>Exames</h1>
-            </div><!--Fim Div titulo-->
-        	<div class="fundoexames">
-                <div class = "menulateralexames">
-                    <ul>
-                    <a href="mamografia.html"><li><h3>Mamografia Digital</h3></li></a>
-                    <a href="raios-x.html"><li><h3>Raios-X Digital</h3></li></a>
-                    <a href="ultrassom.html"><li id="menuon"><h3>Ultrassom Geral</h3></li></a>
-                    <a href="ultrassomObs.html"><li><h3>Ultrassom Obstétrica</h3></li></a>
-                    
-                    <ul>
-                
-                </div>
-                <div class = "conteudoexames">
-                	<div id = "carrossel">
-                        <ul>
-                            <li><img src="img/MuralUSG1.jpg" width="187" height="200"/></li>
-                            <li><img src="img/MuralUSG2.jpg" width="187" height="200"/></li>
-                            <li><img src="img/MuralUSG3.jpg" width="187" height="200"/></li>
-                            <li><img src="img/MuralUSG4.jpg" width="187" height="200"/></li>
-                            <li><img src="img/MuralUSG5.jpg" width="187" height="200"/></li>
-                            <li><img src="img/MuralUSG6.jpg" width="187" height="200"/></li>
-                            <li><img src="img/MuralUSG7.jpg" width="187" height="200"/></li>
-                            <li><img src="img/MuralUSG8.jpg" width="187" height="200"/></li>
-                            <li><img src="img/MuralUSG9.jpg" width="187" height="200"/></li>
-                        </ul>
-                    </div>
-                    <h2 id="conteudotitulo"> <img src="img/ItemImageL.png"> Ultrassonografia Geral</h2>
-                    <h2>O que é?</h2>
-                    <p>A ultrassonografia (ou ecografia) é um método inócuo e relativamente barato de produzir em tempo real imagens em movimento das estruturas e órgãos do interior do corpo. Em virtude de ser um exame de realização muito simples, costuma ser usado para fins preventivos, diagnósticos ou como acompanhamento de tratamentos. É o método ideal para examinar mulheres gestantes, durante o acompanhamento pré-natal, permitindo reconhecer o sexo do bebê antes do nascimento, bem como diagnosticar eventuais alterações morfológicas ou funcionais do feto, realizar intervenções intrauterinas e prever as que serão necessárias após o nascimento.
-                    </p>
-                    
-                    <h2>Como é feito?</h2>
-                    <p>O exame de ultrassonografia é totalmente indolor e não ocasiona nenhum incômodo. Consiste em fazer deslizar sobre a pele um pequeno aparelho chamado transdutor, que emite ondas sonoras de alta frequência, inaudíveis pelo ouvido humano, que são captadas de volta sob a forma de eco. Como cada órgão e estrutura tecidual tem uma densidade específica, os tempos de retorno dos ecos devolvidos por eles são diferentes e são traduzidos na tela em tons variáveis de cinza, do branco ao preto, formando uma imagem captada por um computador.
+      <div class="container">
+        <div class="row center">
+          <a href="index.html">
+            <img src="img/logo2.png" style='height: 380px; margin: 0;'>
+          </a>
+        </div>
+      </div>
+    <div class="parallax"><img src="img/white-background.jpg"></div>
+  </div>
+
+  <nav class="nav-extended white" role="navigation">
+    <div class="nav-content bluecdi">
+      <div class= "container">
+        <ul class="tabs tabs-transparent tabs-fixed-width" style="overflow: hidden">
+          <li class="tab"><a target="_self" href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Início</a></li>
+          <li class="tab"><a class="active" target="_self" href="mamografia.html"><i class="fa fa-stethoscope" aria-hidden="true"></i> Exames</a></li>
+          <li class="tab"><a target="_self" href="sobre.html"><i class="fa fa-info" aria-hidden="true"></i> Sobre</a></li>
+        </ul>
+      </div>
+    </div>    
+  </nav>
+
+  <div class="container">
+    <div class="row">
+
+      <div class="col l3 s12">
+
+        <ul class="collection with-header bluecdi-text">
+          <li class="collection-header grey lighten-3"><h5>Exames:</h5></li>
+          <a href="mamografia.html" class="collection-item bluecdi-text">Mamografia Digital</a>
+          <a href="raios-x.html" class="collection-item bluecdi-text">Raios-X Digital</a>
+          <a href="ultrassom.html" class="collection-item active bluecdi">Ultrassom Geral</a>
+          <a href="ultrassomObs.html" class="collection-item bluecdi-text">Ultrassom Obstétrica</a>
+        </ul>
+
+      </div>
+
+      <div class="col l9 s12">
+        <div id="inicio" class="card">
+          <div class="card-image">
+             <div class="carousel">
+              <a class="carousel-item" href="#one!"><img src="img/MuralUSG1.jpg" width="187" height="200"/></a>
+              <a class="carousel-item" href="#two!"><img src="img/MuralUSG2.jpg" width="187" height="200"/></a>
+              <a class="carousel-item" href="#thre!"><img src="img/MuralUSG3.jpg" width="187" height="200"/></a>
+              <a class="carousel-item" href="#four!"><img src="img/MuralUSG4.jpg" width="187" height="200"/></a>
+              <a class="carousel-item" href="#five!"><img src="img/MuralUSG5.jpg" width="187" height="200"/></a>
+              <a class="carousel-item" href="#six!"><img src="img/MuralUSG6.jpg" width="187" height="200"/></a>
+              <a class="carousel-item" href="#seven!"><img src="img/MuralUSG7.jpg" width="187" height="200"/></a>
+              <a class="carousel-item" href="#eight!"><img src="img/MuralUSG8.jpg" width="187" height="200"/></a>
+              <a class="carousel-item" href="#nine!"><img src="img/MuralUSG9.jpg" width="187" height="200"/></a>
+            </div>
+          </div>
+          <div class="card-content conteudoexames">
+            <h4>Ultrassonografia Geral</h4>
+            <br>
+
+            <p  class="flow-text"><b>O que é?</b></p><br>
+            <p  class="flow-text conteudo">
+            A ultrassonografia (ou ecografia) é um método inócuo e relativamente barato de produzir em tempo real imagens em movimento das estruturas e órgãos do interior do corpo. Em virtude de ser um exame de realização muito simples, costuma ser usado para fins preventivos, diagnósticos ou como acompanhamento de tratamentos. É o método ideal para examinar mulheres gestantes, durante o acompanhamento pré-natal, permitindo reconhecer o sexo do bebê antes do nascimento, bem como diagnosticar eventuais alterações morfológicas ou funcionais do feto, realizar intervenções intrauterinas e prever as que serão necessárias após o nascimento.
+            </p><br>
+            <p  class="flow-text"><b>Como é feito?</b></p><br>
+            <p  class="flow-text conteudo">
+            O exame de ultrassonografia é totalmente indolor e não ocasiona nenhum incômodo. Consiste em fazer deslizar sobre a pele um pequeno aparelho chamado transdutor, que emite ondas sonoras de alta frequência, inaudíveis pelo ouvido humano, que são captadas de volta sob a forma de eco. Como cada órgão e estrutura tecidual tem uma densidade específica, os tempos de retorno dos ecos devolvidos por eles são diferentes e são traduzidos na tela em tons variáveis de cinza, do branco ao preto, formando uma imagem captada por um computador. Passa-se um gel adequado sobre a pele, na região a ser examinada, e sobre ele faz deslizar-se o transdutor que emite as ondas sonoras e as capta de volta. Ele também pode ser realizado por via intravaginal. Com a mulher deitada, o médico introduz o transdutor pela vagina e ele capta informações das estruturas genitais superiores.
+            </p><br>
+            <p  class="flow-text"><b>Quais são os exames de ultrassonografia mais comuns?</b></p><br>
+
+            <p  class="flow-text conteudo">Pode ser feita ultrassonografia de praticamente qualquer parte do corpo. Alguns dos exames ultrassonográficos mais comuns são:</p><br>
+
+            <ul>
+                <li><i class="tiny material-icons">done</i> <b>Ultrassonografia de abdome:</b> exige um jejum de 6 a 8 horas e que a bexiga esteja repleta. Utilizada para avaliação do fígado, vesícula biliar, rins, pâncreas, bexiga, grandes vasos, retroperitônio e, mais excepcionalmente, trato gastrointestinal.</li>
+                <li><i class="tiny material-icons">done</i> <b> Ultrassonografia pélvica:</b> nas mulheres ele é mais frequentemente usado para avaliar o estado do útero, trompas e ovários, mas pode também ser usado para avaliar dores pélvicas, sangramentos anormais, tumorações, infecções, alterações da bexiga e para orientar eventuais biópsias por agulhas. No homem é realizado com o objetivo de se avaliar a próstata, bexiga e vesículas seminais. </li>
+                <li><i class="tiny material-icons">done</i> <b>Ultrassonografia das mamas:</b> utilizada para o diagnóstico e o acompanhamento de lesões mamárias e para a realização de biópsias com agulhas. </li>
+                <li><i class="tiny material-icons">done</i> <b>Ultrassonografia da tireoide:</b> a ultrassonografia com Doppler colorido de tireoide fornece informações sobre a tireoide e seu respectivo fluxo sanguíneo.</li>
+                <li><i class="tiny material-icons">done</i> <b>Ultrassonografia das articulações:</b> para ajudar na avaliação de alterações das estruturas articulares e da musculatura associada à articulação (sinovites, artrites, etc.).</li>
+                <li><i class="tiny material-icons">done</i> <b>Doppler vascular:</b> avalia o fluxo sanguíneo nos vasos, podendo avaliar também se há ou não vascularização em um tumor ou nódulo.</li>
+                <li><i class="tiny material-icons">done</i> <b>Ultrassonografia na gravidez:</b> um uso muito frequente da ultrassonografia é no acompanhamento da gravidez, momento em que ela pode avaliar o desenvolvimento do feto e a saúde do bebê.</li>
+                <li><i class="tiny material-icons">done</i>  <b>Ultrassonografia nas biópsias:</b> outro importante e frequente uso da ultrassonografia é guiar as agulhas de biópsias para seus alvos corretos.</li>
+            </ul>
             
-            Passa-se um gel adequado sobre a pele, na região a ser examinada, e sobre ele faz deslizar-se o transdutor que emite as ondas sonoras e as capta de volta. Ele também pode ser realizado por via intravaginal. Com a mulher deitada, o médico introduz o transdutor pela vagina e ele capta informações das estruturas genitais superiores.</p>
             
-                    <h2>Quais são os exames de ultrassonografia mais comuns?</h2>
-                    <p>Pode ser feita ultrassonografia de praticamente qualquer parte do corpo. Alguns dos exames ultrassonográficos mais comuns são:</p>
-                    
-                    <ul>
-                        <li>
-                            <b>Ultrassonografia de abdome:</b> exige um jejum de 6 a 8 horas e que a bexiga esteja repleta. Utilizada para avaliação do fígado, vesícula biliar, rins, pâncreas, bexiga, grandes vasos, retroperitônio e, mais excepcionalmente, trato gastrointestinal.
-                        </li>
-                        <li>
-                            <b>Ultrassonografia pélvica:</b> nas mulheres ele é mais frequentemente usado para avaliar o estado do útero, trompas e ovários, mas pode também ser usado para avaliar dores pélvicas, sangramentos anormais, tumorações, infecções, alterações da bexiga e para orientar eventuais biópsias por agulhas. No homem é realizado com o objetivo de se avaliar a próstata, bexiga e vesículas seminais.
-                        </li>
-                        <li>
-                            <b>Ultrassonografia das mamas:</b> utilizada para o diagnóstico e o acompanhamento de lesões mamárias e para a realização de biópsias com agulhas.
-                        </li>
-                        <li>
-                            <b>Ultrassonografia da tireoide:</b> a ultrassonografia com Doppler colorido de tireoide fornece informações sobre a tireoide e seu respectivo fluxo sanguíneo.
-                        </li>
-                        <li>
-                            <b>Ultrassonografia das articulações:</b> para ajudar na avaliação de alterações das estruturas articulares e da musculatura associada à articulação (sinovites, artrites, etc.).
-                        </li>
-                        <li>
-                            <b>Doppler vascular:</b> avalia o fluxo sanguíneo nos vasos, podendo avaliar também se há ou não vascularização em um tumor ou nódulo.
-                        </li>
-                        <li>
-                            <b>Ultrassonografia na gravidez:</b> um uso muito frequente da ultrassonografia é no acompanhamento da gravidez, momento em que ela pode avaliar o desenvolvimento do feto e a saúde do bebê.
-                        </li>
-                        <li>
-                            <b>Ultrassonografia nas biópsias:</b> outro importante e frequente uso da ultrassonografia é guiar as agulhas de biópsias para seus alvos corretos.
-                        </li>
-                    </ul>
-                    
-                    <h2>Quais são as vantagens e desvantagens da ultrassonografia?</h2>
-                    <h3>Vantagens:</h3>
-                    <ul>
-                        <li>
-                            É um exame que em geral não exige preparo prévio ou, em alguns casos, apenas uma preparação simples, como um jejum de 6 a 8 horas e a repleção da bexiga.
-                        </li>
-                        <li>
-                            É um exame não invasivo e indolor que fornece imagens dinâmicas em tempo real, sem o uso de radiações, amplamente disponível, de fácil uso e custo relativamente baixo.
-                        </li>
-                    </ul>
-                    <h3>Desvantagens:</h3>
-                    <ul>
-                        <li>
-                            Não permite uma boa visualização das cavidades ou dos órgãos que contenham gases.
-                        </li>
-                        <li>
-                            A visualização das estruturas em pacientes obesos é mais difícil.
-                        </li>
-                        <li>
-                            Em casos de exame de ossos, apenas pode ser visualizada a superfície externa deles.
-                        </li>
-                    </ul>
-                    
-                
-                </div><!--Fim Div conteudoexames-->
-       		</div><!--Fim Div fundoexames -->
-        </div><!--Fim Div conteudo-->
-	</div><!-- Fim Div fundo -->
-    <div class="fundorodape">
-        <div class="rodape">
-            <p><b>Fone:</b> (91) 8745-3512 <sup>(Oi)</sup> | 8972-6692 <sup>(Tim)</sup> | 9335-5581 <sup>(Vivo)</sup></p>
-            <p><a href="localizacao.html"><b>Endereço: </b>Tv.Izidoro de Carvalho nº 13 Qd 330, Barcarena-PA, CEP: 68447-000</a></p>
-            <p>Copyright © CDI Barcarena 2014<p>
-        </div><!-- Fim Div rodape--> 
-    </div><!--Fim Div fundorodape-->
-</body>
+            <p  class="flow-text"><b>Quais são as vantagens e desvantagens da ultrassonografia?</b></p><br>
+
+            <p  class="flow-text"><b>Vantagens:</b></p>
+
+            <ul>
+                <li><i class="tiny material-icons">done</i> É um exame que em geral não exige preparo prévio ou, em alguns casos, apenas uma preparação simples, como um jejum de 6 a 8 horas e a repleção da bexiga.</li>
+                <li><i class="tiny material-icons">done</i> É um exame não invasivo e indolor que fornece imagens dinâmicas em tempo real, sem o uso de radiações, amplamente disponível, de fácil uso e custo relativamente baixo.</li>
+            </ul>
+            <p  class="flow-text"><b>Desvantagens:</b></p>
+
+            <ul>
+                <li><i class="tiny material-icons">done</i> Não permite uma boa visualização das cavidades ou dos órgãos que contenham gases.</li>
+                <li><i class="tiny material-icons">done</i> A visualização das estruturas em pacientes obesos é mais difícil. </li>
+                <li><i class="tiny material-icons">done</i> Em casos de exame de ossos, apenas pode ser visualizada a superfície externa deles.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="page-footer grey lighten-3">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <br>
+          <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fcdibarcarena%2Fposts%2F1089395447832011%3A0&width=500" width="100%" height="200" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+
+
+        </div>
+        <div class="col l6 s12">
+          <ul class="collection">
+            <li class="collection-item avatar">
+              <i class="material-icons circle bluecdi">call</i>
+              <span class="title"><b>Telefones</b></span>
+              <p><small>Oi:</small> (91) 8745-3512 <br>
+                 <small>Tim:</small> (91) 8972-6692 <br>
+                 <small>Vivo:</small> (91) 9335-5581
+              </p>
+            </li>
+            <li class="collection-item avatar">
+              <i class="material-icons circle bluecdi">email</i>
+              <span class="title"><b>Email</b></span>
+              <p>cdi.barcarena.saude@gmail.com
+              </p>
+            </li>
+            <li>
+              <a href="#modal1" class="collection-item black-text avatar">
+                <i class="material-icons circle bluecdi">location_on</i>
+                <span class="title"><b>Endereço</b></span>
+                <p>Tv.Izidoro de Carvalho nº 13 Qd 330, Barcarena-PA, CEP: 68447-000
+                </p>
+              </a>           
+            </li>
+          </ul> 
+          <!-- Modal Structure -->
+          <div id="modal1" class="modal">
+            <div class="modal-content">
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.4174444462783!2d-48.70265568533748!3d-1.5183559988926985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92a49d72fd3f4d83%3A0xe12a24c2e1a671ed!2sCDI+Barcarena!5e0!3m2!1spt-BR!2sbr!4v1491083896107" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container bluecdi-text">
+        Copyright © CDI Barcarena 2017
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script> 
+              
+      $('.carousel-slider').carousel({fullWidth: true});
+    
+  </script>
+  </body>
 </html>

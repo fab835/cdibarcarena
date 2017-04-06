@@ -1,144 +1,244 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>CDI Barcarena</title>
-<link rel="stylesheet" type="text/css" href="css/style.css" />
-<script type="text/javascript" src="js/jquery-1.8.2.js" ></script>
-<script type="text/javascript" src="js/jquery-ui-1.9.0.custom.min.js" ></script>
-<script type="text/javascript" src="js/jquery-ui-tabs-rotate.js" ></script>
-<script type="text/javascript">
-	$(document).ready(function(){
-		$("#featured").tabs({fx:{opacity: "toggle"}}).tabs("rotate", 5000, true);
-	});
-</script>
-<script type"text/javascript" src="js/BlocoExames.js" ></script>
-<link href="css/csssite.css" rel="stylesheet" type="text/css"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>CDI - Barcarena</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="css/font-awesome.min.css">
 </head>
-
 <body>
-	<div class ="barraDeFundo">
-        <div class = "menu">
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="mamografia.html">Exames</a></li>
-                <li><a href="sobre.html">Sobre</a></li>	
-            </ul>
-        </div><!--Fim div menu-->
-    </div><!--Fim div barraDeFundo-->
-    <div class="fundo2">
-        <div class = "content">
-            <div class = "logo">
-                <a href="index.html"><img src="img/Sem-título-1.png" width="310" alt="CDI" longdesc="index.html" /></a>
-            </div>
-            
-			<div class= "img3d4d">
-                <ul>
-                    <a href="ultrassomObs.html">
-                    <li>
-						<h1>Ultrassom 3D/4D</h1>
-                    </li>
-                        
-                    <li>
-                        <img src="img/3D4Danimado.gif" width="150" height="150" />
-                    </li>
-                    </a>                     
-                    
-                </ul>
-                   		
-                  
-            </div>	<!-- Fim da div de Class "img3d4d" -->        
-   	
-            
-        </div> <!-- Fim da div de Class "content" -->
-    </div><!--Fim Div fundo2-->
-    <div class = "fundo">
-    	<div class = "conteudo">
-            <div class="titulo">
-                <h1> Seja Bem-Vindo! </h1>
-            </div>
+  <div class="fixed-action-btn">
+    <a href="#top" class="btn-floating btn-large bluecdi">
+      <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    </a>
+  </div>
+  <div id="top" class= 'grey lighten-4'>
+    <div class= "container black-text center-align">
+      <small>
+      <b>Telefones: </b>
+      <small>Oi:</small> (91) 8745-3512 |
+      <small>Tim:</small> (91) 8972-6692 |
+      <small>Vivo:</small> (91) 9335-5581
+    </small>
+    </div>
+  </div>
+  <div class="parallax-container valign-wrapper">
     
-            <div id="featured" >
-		 		<ul class="ui-tabs-nav">
-                    <li class="ui-tabs-nav-item" id="nav-fragment-1">
-                    	<a href="#fragment-1">
-                        	<img src="img/Ultrassonografia3d4d.jpg" width="124" height="55"alt="" />
-                            <span>Ultrassom 3D/4D</span>
-                        </a>
-                    </li>
-	        		<li class="ui-tabs-nav-item" id="nav-fragment-2">
-                    	<a href="#fragment-2">
-                    		<img src="img/mamografia.png" width="124" height="55" alt="" />
-                            <span>Mamografia Digital</span>
-                        </a>
-                    </li>
-	        		<li class="ui-tabs-nav-item" id="nav-fragment-3">
-                    	<a href="#fragment-3">
-                        	<img src="img/RAIO-X.jpg" width="124"height="55" alt="" />
-                            <span>Raios-X Digital</span>
-                        </a>
-                    </li>
-				</ul>
-				
-                
-                <div id="fragment-1" class="ui-tabs-panel ui-tabs-hide" style="">
-                <a href="ultrassomObs.html" >
-                    <img src="img/Ultrassonografia3d4d.jpg" alt="" width="613" height="290" />
-                    </a>
-                     <div class="info" >
-                        <h2></h2>
-                     </div>
-                </div>
-                
-	    		<div id="fragment-2" class="ui-tabs-panel" style="">
-					<a href="mamografia.html" ><img src="img/mamografia.jpg" alt="" width="613" height="290"/></a>
-                    <div class="info" >
-                        <h2><a href="mamografia.html" >Mamografia Digital</a></h2>	
-                    </div>
-	    		</div>
+      <div class="container">
+        <div class="row center">
+          <a href="index.html">
+            <a href="index.html">
+            <img src="img/logo2.png" style='height: 380px; margin: 0;'>
+          </a>
+          </a>
+        </div>
+      </div>
+    <div class="parallax"><img src="img/white-background.jpg"></div>
+  </div>
 
-                <div id="fragment-3" class="ui-tabs-panel ui-tabs-hide" style="">
-                    <a href="raios-x.html" ><img src="img/RAIO-X.jpg" width="613" height="290" alt="" /></a>
-                     <div class="info" >
-                        <h2><a href="raios-x.html" >Raios-X Digital</a></h2>
-                     </div>
-                </div>
+  <nav class="nav-extended white" role="navigation">
+    <div class="nav-content bluecdi">
+      <div class= "container">
+        <ul class="tabs tabs-transparent tabs-fixed-width" style="overflow: hidden">
+          <li class="tab"><a class="active" target="_self" href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Início</a></li>
+          <li class="tab"><a target="_self" href="mamografia.html"><i class="fa fa-stethoscope" aria-hidden="true"></i> Exames</a></li>
+          <li class="tab"><a target="_self" href="sobre.html"><i class="fa fa-info" aria-hidden="true"></i> Sobre</a></li>
+        </ul>
+      </div>
+    </div>    
+  </nav>
 
-                
-			</div>
+  <div class="container">
+    <br>
+    <h5>Ultimas novidades:</h5>
+    
+    <div class="row">
+      <div class="col s12 m9">
+        <div class="carousel carousel-slider center" data-indicators="true">
+          
+            <div class="carousel-item slide1 white-text" href="#one!">
+              <div >
+
+              </div>
+            </div>
+          <div class="carousel-item slide2 white-text" href="#two!">
+            <h2>Mamografia Digital</h2>
+          </div>
+          <div class="carousel-item slide3 white-text" href="#three!">
+            <h2>Raios-X Digital</h2>
+          </div>
+        </div>
+      </div>
+      <div class="">
+        <div class="col s12 m3 center ">
+          <a href="ultrassomObs.html">
+            <div class="card hoverable ">
+              <div class="card-content blue darken-2 white-text">
+                Ultrassom 3D/4D
+              </div>
+              <div class="card-image">
+                 <img src="img/3D4Danimado.gif" alt="" style="max-height: 200px;">
+                <span class="card-title"></span>
+              </div>
+              <div class="card-content red white-text">
+                <i class="material-icons left">videocam</i>Grave esse momento
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+<!--       <div class="carousel carousel-slider">
+        <a class="carousel-item" href="#one!"><img src="img/Ultrassonografia3d4d.png"></a>
+        <a class="carousel-item" href="#two!"><img src="img/mamografia.png"></a>
+        <a class="carousel-item" href="#three!"><img src="img/RAIO-X.png"></a>
+      </div> -->
         
-            <div class="bloco">
-                <ul>
-                	<a href="raios-x.html"><li><h3><img src="img/ItemImageL.png"> Raios-X Digital</h3>
-                    <img src="img/RAIO-X.jpg" alt="raiox" width="220"/>
-                    <p>O raios-X digital, possibilita a gravação das imagens em cd/arquivo e também a manipulação delas no computador, não havendo mais a necessidade de repetir o exame.(...)</p>
-                    </li></a>
-                    
-                    <a href="mamografia.html"><li><h3><img src="img/ItemImageL.png"> Mamografia Digital</h3>
-                    <img src="img/mamografia.png" alt="mamografia" width="220"/>
-                    <p>É o exame radiológico das mamas, feito com uma baixa dose de radiação, quase desprezível, para produzir imagens que forneçam informações sobre o interior da glândula mamária e das axilas. (...)</p>
-                    </li></a>
-                    
-                	<a href="ultrassom.html"><li><h3><img src="img/ItemImageL.png"> Ultrassonografia Geral</h3>
-                    <img src="img/USG.jpg" alt="ultrassom" width="220"/>
-                    <p>A ultrassonografia (ou ecografia) é um método inócuo e relativamente barato de produzir em tempo real imagens em movimento das estruturas e órgãos do interior do corpo.(...)</p>
-                    </li></a>
-                                        
-                    <a href="ultrassomObs.html"><li><h3><img src="img/ItemImageL.png"> Ultrassonografia Obstetrica</h3>
-                    <img src="img/Ultrassonografiaobs.jpg" alt="ultrassom" width="220"/>
-                    <p>Sem duvida a US obstétrica atualmente é insubstituível no que se refere á avaliação do concepto e que deve ser obrigatoriamente incluída na rotina pré-natal (...)</p>
-                    </li></a>
-                    
-                </ul>
-            </div><!--Fim div bloco-->   
-    	</div> <!--Fim div conteudo -->
-	</div><!--Fim div fundo-->
-    <div class="fundorodape">
-        <div class="rodape">
-            <p><b>Fone:</b> (91) 8745-3512 <sup>(Oi)</sup> | 8972-6692 <sup>(Tim)</sup> | 9335-5581 <sup>(Vivo)</sup></p>  
-            <p><a href="localizacao.html"><b>Endereço: </b>Tv.Izidoro de Carvalho nº 13 Qd 330, Barcarena-PA, CEP: 68447-000</a></p>
-            <p>Copyright © CDI Barcarena 2014<p>
-        </div><!-- Fim Div rodape--> 
-    </div><!--Fim Div fundorodape-->
-</body>
+  </div>
+  <div class="container">
+    <div class="section">
+      <h5><i class="fa fa-stethoscope" aria-hidden="true"></i> Nossos exames:</h5>
+      <div class="row">
+        <div class="col s12 m3">
+          <a href="raios-x.html">
+            <div class="card grey lighten-5 hoverable">
+              <div class="card-image center">
+                <img src="img/RAIO-X.jpg" height="140px">
+              </div>
+              <div class="card-content">
+                <span class="card-title grey-text text-darken-4">Raios-X<br> Digital</span>
+              </div>
+              <!-- <div class="cart-content bluecdi">
+                <p class='center-align'><a href="raios-x.html" class="waves-effect waves-light btn-flat bluecdi white-text z-depth-0">Saiba mais</a></p>
+              </div> -->
+            </div>
+          </a>
+        </div>
+        <div class="col s12 m3">
+          <a href="mamografia.html">
+            <div class="card hoverable grey lighten-5">
+              <div class="card-image center">
+                <img src="img/mamografia.jpg" height="140px">
+              </div>
+              <div class="card-content">
+                <span class="card-title grey-text text-darken-4">Mamografia <br>Digital</span>
+              </div>
+              <!-- <div class="cart-content bluecdi">
+                <p class='center-align'><a href="mamografia.html" class="waves-effect waves-light btn-flat bluecdi white-text z-depth-0">Saiba mais</a></p>
+              </div> -->
+            </div>
+          </a>
+        </div>
+        <div class="col s12 m3">
+          <a href="ultrassom.html">
+            <div class="card hoverable grey lighten-5">
+              <div class="card-image center">
+                <img src="img/USG.jpg" height="140px">
+              </div>
+              <div class="card-content">
+                <span class="card-title grey-text text-darken-4">Ultrassonografia Geral</span>
+              </div>
+              <!-- <div class="cart-content bluecdi">
+                <p class='center-align'><a href="ultrassom.html" class="waves-effect waves-light btn-flat bluecdi white-text z-depth-0">Saiba mais</a></p>
+              </div> -->
+            </div>
+          </a>
+        </div>
+        <div class="col s12 m3">
+          <a href="ultrassomObs.html"/>
+            <div class="card hoverable grey lighten-5">
+              <div class="card-image center">
+                <img src="img/Ultrassonografiaobs.jpg" height="140px">
+              </div>
+              <div class="card-content">
+                <span class="card-title grey-text text-darken-4">Ultrassonografia Obstétrica</span>
+              </div>
+             <!--  <div class="cart-content bluecdi">
+                <p class='center-align'><a href="ultrassomObs.html" class="waves-effect waves-light btn-flat bluecdi white-text z-depth-0">Saiba mais</a></p>
+              </div> -->
+            </div>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  
+<!--   <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
+  </div> -->
+
+  <footer class="page-footer grey lighten-3">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <br>
+          <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fcdibarcarena%2Fposts%2F1089395447832011%3A0&width=500" width="100%" height="200" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+
+
+        </div>
+        <div class="col l6 s12">
+          <ul class="collection">
+            <li class="collection-item avatar">
+              <i class="material-icons circle bluecdi">call</i>
+              <span class="title"><b>Telefones</b></span>
+              <p><small>Oi:</small> (91) 8745-3512 <br>
+                 <small>Tim:</small> (91) 8972-6692 <br>
+                 <small>Vivo:</small> (91) 9335-5581
+              </p>
+            </li>
+            <li class="collection-item avatar">
+              <i class="material-icons circle bluecdi">email</i>
+              <span class="title"><b>Email</b></span>
+              <p>cdi.barcarena.saude@gmail.com
+              </p>
+            </li>
+            <li>
+              <a href="#modal1" class="collection-item black-text avatar">
+                <i class="material-icons circle bluecdi">location_on</i>
+                <span class="title"><b>Endereço</b></span>
+                <p>Tv.Izidoro de Carvalho nº 13 Qd 330, Barcarena-PA, CEP: 68447-000
+                </p>
+              </a>           
+            </li>
+          </ul> 
+          <!-- Modal Structure -->
+          <div id="modal1" class="modal">
+            <div class="modal-content">
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.4174444462783!2d-48.70265568533748!3d-1.5183559988926985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92a49d72fd3f4d83%3A0xe12a24c2e1a671ed!2sCDI+Barcarena!5e0!3m2!1spt-BR!2sbr!4v1491083896107" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container bluecdi-text">
+        Copyright © CDI Barcarena 2017
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script> 
+              
+      $('.carousel-slider').carousel({fullWidth: true});
+    
+  </script>
+  </body>
 </html>
