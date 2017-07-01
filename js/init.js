@@ -5,7 +5,7 @@
     $('.parallax').parallax();   
     $('.modal').modal();
     $('ul.tabs').tabs();
-
+    $('.slider').slider();
     $('.carousel').carousel({
         padding: 200    
 	});
